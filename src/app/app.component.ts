@@ -16,10 +16,10 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this._authService.logOutFormApplication();
-      this._router.navigate(['/'])
-    }, 5000);
+    // setTimeout(() => {
+    //   this._authService.logOutFormApplication();
+    //   this._router.navigate(['/'])
+    // }, 5000);
   }
   onLogout() {
     this._authService.logOutFormApplication();
